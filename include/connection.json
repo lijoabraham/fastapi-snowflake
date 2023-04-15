@@ -1,0 +1,15 @@
+{
+    "connection_parameters": {"account": "<your account>",
+                              "user": "<username>",
+                              "password":"<password>",
+                              "role": "accountadmin",
+                              "database": "<database>",
+                              "schema": "public"
+                             },
+    "compute_parameters" : {"default_warehouse": "compute_wh",  
+                            "task_warehouse": "XSMALL_WH",  
+                            "load_warehouse": "LARGE_WH",  
+                            "fe_warehouse": "XXLARGE_WH",  
+                            "train_warehouse": "XXLARGE_WH"  
+                            }
+}
